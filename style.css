@@ -6,8 +6,8 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: rgb(9, 9, 81) ;
-    color: rgb(184, 200, 178);
+    background-color:black ;
+    color:whitesmoke;
 
 }
 
@@ -23,47 +23,47 @@ header {
     z-index: 100;
 }
 .logo {
-    font-size: 2em;
-    color: rgb(171, 102, 11);
+    font-size: 4em;
+    color: rgb(121, 119, 164);
     cursor: default;
 }
 .logo span {
-    color:  goldenrod;
+    color:  rgb(82, 138, 184);
 }
 .navigation {
     margin-left: -200px;
 }
 .navigation a {
     font-size: 1.1em;
-    color: rgb(206, 130, 30);
+    color:aliceblue;
     text-decoration: none;
     margin-right: 40px;
     font-weight: 500;
     transition: .3s;
 }
 .navigation a:hover {
-    color: rgb(177, 130, 11);
+    color: rgb(94, 185, 158);
     
 }
 .btn-talk {
     color: #fff;
     text-decoration: none;
     padding: 8px 35px;
-    background:  goldenrod;
+    background:  rgb(17, 40, 108);
     border-radius: 10px;
-    border: 2px solid  goldenrod;
+    border: 2px solid  rgb(13, 180, 18);
     font-weight: 500;
     transition: .3s;
 }
 .btn-talk:hover {
-    color:  goldenrod;
+    color:  rgb(21, 164, 45);
     background: transparent;
 }
 .home {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url('./images.avif');
+    background: url('./bg.image.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -73,13 +73,13 @@ header {
 }
 .content {
     max-width: 500px;
-    color: burlywood;
+    color: rgb(48, 187, 9);
 }
 .content h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 .content h2 span {
-    color:  goldenrod;
+    color:  rgb(47, 166, 26);
 }
 .content h4 {
     font-size: 2em;
@@ -91,25 +91,25 @@ header {
     color: #fff;
     text-decoration: none;
     padding: 10px 40px;
-    background: goldenrod;
+    background: rgb(66, 198, 25);
     border-radius: 10px;
-    border: 2px solid goldenrod;
+    border: 2px solid rgb(20, 175, 69);
     font-weight: 500;
     transition: .3s;
 }
 .btn-group a:hover:nth-child(1) {
-    color: goldenrod;
+    color: rgb(24, 182, 16);
     background: transparent;
 }
 .btn-group a:nth-child(2) {
-    color: goldenrod;
+    color: rgb(73, 172, 15);
     background: transparent;
     margin-left: 30px;
     padding: 10px 30px;
 }
 .btn-group a:hover:nth-child(2) {
     color: #fff;
-    background: goldenrod;
+    background: rgb(16, 183, 53);
 }
 .social-icons {
     position: absolute;
@@ -182,18 +182,18 @@ header {
         color: #fff;
         text-decoration: none;
         padding: 8px 35px;
-        background:  goldenrod;
+        background: rgb(25, 9, 169);
         border-radius: 10px;
-        border: 2px solid  goldenrod;
+        border: 2px solid  rgb(201, 187, 190);
         font-weight: 500;
         transition: .3s;
         margin-left: 50px;
     }
     .content-project>div>a>button:hover {
-        color:  goldenrod;
+        color:  rgb(183, 71, 10);
         background: transparent;
     }
     .ani{
-        color: goldenrod;
+        color: rgb(186, 38, 12);
     }
     
